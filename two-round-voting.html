@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Two-round voting system</title>
+  <style>
+    body {
+      font-size: 10pt;
+    }
+
+    #charts {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      margin-top:2em;
+    }
+
+    .slider {
+      font-variant-numeric: tabular-nums;
+      text-align: center;
+    }
+
+    .slider .label_left, .slider .label_right {
+      display: inline-block;
+      margin-left:0.5em;
+      margin-right:0.5em;
+      width: 11em;
+    }
+
+    .slider .label_left {
+      text-align: right;
+    }
+
+    .slider .value {
+      font-weight: bold;
+    }
+
+    .slider .description {
+      font-size: 80%;
+      margin-bottom: 0.2em;
+      text-align: center;
+    }
+
+    .slider input {
+      display: inline-block;
+      width: 15em;
+    }
+
+    #summary {
+      text-align: center;
+    }
+
+    .candidate {
+      font-weight: bold;
+    }
+  </style>
+
+  <style media="screen">
+    /* Add space between Vega-Embed links  */
+    .vega-actions a {
+      margin-right: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Two-round voting system</h1>
+
+  <p>This simulation illustrates a pathological situation of the <a href="https://en.wikipedia.org/wiki/Two-round_system">two-round voting system</a>.
+  It is inspired from <a href="https://cortecs.org/chiffres-graphiques/le-jugement-majoritaire-et-ses-alternatives/">this article</a> (in French.)</p>
+
+  <p>For the sake of simplicity, let's consider an election with 3 candidates <span class="candidate">A</span>, <span class="candidate">B</span> and <span class="candidate">C</span>, and let's assume that <span class="candidate">A</span> wins through the two-round voting system.</p>
+
+  <p>Now let's assume that in an alternate universe, the same election happens in the same conditions, except that more people vote for <span class="candidate">A</span> during the first round. Then, it stands to reason that <span class="candidate">A</span> should also win the election in that alternate universe.</p>
+
+  <p>Unfortunately, this doesn't always hold, and here's an interactive counter-example:</p>
+
+  <ul>
+    <li>Reset the simulation: make sure the cursor is in the leftmost position; observe that candidate <span class="candidate">A</span> wins the election</li>
+    <li>Move the cursor progressively to the right, such that candidate <span class="candidate">A</span> gets more votes</li>
+    <li>Observe what happens during both rounds</li>
+  </ul>
+
+  <div id="generated-root"></div>
+
+  <div id="charts">
+    <div id="round1-chart"></div>
+    <div id="round2-chart"></div>
+  </div>
+
+  <script type="text/javascript" charset="utf-8" src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+  <script type="text/javascript" charset="utf-8" src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+  <script type="text/javascript" charset="utf-8" src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+  <script type="text/javascript" charset="utf-8" src="https://cdn.jsdelivr.net/npm/vega-tooltip@0.25.0"></script>
+  <script type="text/javascript" charset="utf-8" src="two-round-voting.js"></script>
+</body>
+
+</html>

@@ -161,6 +161,8 @@ Error message and password prompt
 
 <li>$:/themes/tiddlywiki/vanilla</li>
 
+<li>Install LineageOS on Xiaomi Pocophone F1</li>
+
 <li>Preferred-versions as a way to smooth out API-breaking changes</li>
 
 </ul>
@@ -10237,6 +10239,15 @@ Error message and password prompt
         }
     }
 }</pre>
+</div>
+<div created="20210206224213435" modified="20210207142116660" tags="How-to" title="Install LineageOS on Xiaomi Pocophone F1" tmap.id="df265c30-556f-4df3-86d3-e6c4b7c17786" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>Go to [[Lineage OS wiki for beryllium|https://wiki.lineageos.org/devices/beryllium/install]], ''read everything once'' first, then follow instructions with the following changes:
+
+* In section &quot;Unlocking the bootloader&quot;
+** after enabling developer options, go to `Settings &gt; Additional Settings &gt; Developer Options` and enable `USB Debugging` and `OEM Unlocking`
+* In section &quot;Installing LineageOS from recovery&quot;
+** before doing anything, download latest firmware (for Android 10) from [[Xiaomi Firmware Updater|https://xiaomifirmwareupdater.com/firmware/beryllium/]]
+** before sideloading the LineageOS package, sideload the Xiaomi firmware update</pre>
 </div>
 <div created="20210118211247341" modified="20210118211737181" tags="[[Software craftsmanship]]" title="Preferred-versions as a way to smooth out API-breaking changes" tmap.id="e98a7fc3-78a3-48f7-8295-5be26f83602b" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>Preferred-versions are a [[Hackage|https://hackage.haskell.org/]] feature that looks [[mostly unused|https://hackage.haskell.org/packages/preferred]], whereas it enables a software release strategy that can mitigate the damage caused by API-breaking changes. This article is an attempt to advertise this strategy.

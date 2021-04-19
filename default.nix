@@ -8,12 +8,10 @@ let
     src = ./.;
     buildInputs = dependencies;
     buildPhase = ''
-      ${nixpkgs.nodePackages.tiddlywiki}/bin/tiddlywiki . --output . --build index
-    '';
-    installPhase = ''
       mkdir -p $out
-      cp $src/index.html $out/
+      ${nixpkgs.nodePackages.tiddlywiki}/bin/tiddlywiki . --output $out --build index
     '';
+    installPhase = "true";
   };
 
 in {

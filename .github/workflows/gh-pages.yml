@@ -21,6 +21,9 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Install theme
+        run: mkdir -p themes/hugo-geekdoc && curl -L https://github.com/thegeeklab/hugo-geekdoc/releases/download/v0.27.3/hugo-geekdoc.tar.gz | tar -xz -C themes/hugo-geekdoc/ --strip-components=1
+
       - name: Build
         run: hugo --minify
 

@@ -1,11 +1,8 @@
 baseURL: https://k0ral.github.io/
-languageCode: en-us
+languageCode: en
 title: My digital garden
-subtitle: A non-linear personal web notebook
-theme: hugo-geekdoc
+relativeURLs: true
 
-params:
-  geekdocBreadcrumb: false
-  geekdocRepo: "https://github.com/k0ral/k0ral.github.io"
-  geekdocBackToTop: false
-  geekdocTagsToMenu: true
+taxonomies:
+  tag: tags
+  diataxis: diataxis

@@ -1,0 +1,52 @@
+// Import full Pico source code
+// @import "../../static/pico/scss/pico.classless.scss";
+
+
+// Nav
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--background-body);
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+// Tags
+
+ul.tags {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.tags li {
+  float: left;
+}
+
+ul.tags li:first-child::before {
+  content: "🏷 ";
+}
+
+ul.tags li:not(:last-child)::after {
+  content:" • ";
+}

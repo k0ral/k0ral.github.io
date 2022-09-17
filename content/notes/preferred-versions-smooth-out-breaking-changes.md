@@ -1,6 +1,7 @@
 ---
 title: "Preferred-versions smooth out breaking changes"
 tags: ['software-craftsmanship']
+diataxis: explanation
 draft: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Install LineageOS on Xiaomi Pocophone F1"
-tags: ['how-to']
+diataxis: how-to
 draft: false
 ---
 

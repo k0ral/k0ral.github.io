@@ -1,6 +1,7 @@
 ---
 title: "Build a gaming PC"
 tags: ['video-gaming']
+diataxis: reference
 draft: false
 ---
 

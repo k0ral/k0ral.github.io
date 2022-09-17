@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<hgroup>
+  <h1>{{ .Title | markdownify }}</h1>
+  {{ if .Params.tags }}
+  <ul class="tags">
+    {{ range .Params.tags }}
+    <li><a href="/tags/{{. | urlize }}">{{.}}</a></li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</hgroup>
+
+{{ .Content }}
+
+{{ end }}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}" data-theme="dark">
+{{ partial "head.html" . }}
+<body>
+<header>
+{{ partial "nav.html" . }}
+</header>
+
+{{ if .IsPage }}
+<main data-pagefind-body>
+{{ else }}
+<main>
+{{ end }}
+
+  {{ block "main" . }}
+  {{ end }}
+</main>
+
+</body>
+</html>

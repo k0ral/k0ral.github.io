@@ -1,6 +1,6 @@
 ---
 title: "Tabletop role-playing game"
-tags: ['interests']
+diataxis: reference
 draft: false
 ---
 

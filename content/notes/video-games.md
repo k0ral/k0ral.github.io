@@ -1,6 +1,6 @@
 ---
 title: "Video games"
-tags: ['reference']
+diataxis: reference
 draft: false
 ---
 

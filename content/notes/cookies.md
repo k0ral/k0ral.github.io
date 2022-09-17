@@ -1,6 +1,7 @@
 ---
 title: "Cookies 🍪"
-tags: ['how-to', 'cooking']
+tags: ['cooking']
+diataxis: how-to
 draft: false
 ---
 

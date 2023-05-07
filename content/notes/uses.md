@@ -1,6 +1,6 @@
 ---
-title: "Uses"
-tags: ['reference']
+title: Uses
+diataxis: reference
 draft: false
 ---
 

@@ -15,6 +15,7 @@ draft: false
   - Case: [Corsair 4000D Airflow](https://pcpartpicker.com/product/bCYQzy/corsair-4000d-airflow-atx-mid-tower-case-cc-9011200-ww)
 - Daily driver laptop: [Tuxedo Aura 15 Gen 2](https://www.tuxedocomputers.com/en/Linux-Hardware/Notebooks/15-16-inch/TUXEDO-Aura-15-Gen2.tuxedo) (15.6" FHD, AMD Ryzen 5 5500U, 16GB RAM)
 - Monitor: [AOC CQ27G2U](https://eu.aoc.com/en/gaming/products/monitors/cq27g2u-bk) (27", 1440p, 144Hz)
+- Mouse: [HyperX Pulsefire Haste Wireless](https://fr.hyperx.com/en/products/hyperx-pulsefire-haste-wireless)
 - Headset: [SteelSeries Arctis Nova 7](https://steelseries.com/gaming-headsets/arctis-nova-7)
 - Phone: [Xiaomi Pocophone F1](https://www.gsmarena.com/xiaomi_pocophone_f1-9293.php), with [Lineage OS](https://lineageos.org/)
 - Desk: Aum World [Wave](https://www.aum-world.com/products/plateau-wave) + [Handy](https://www.aum-world.com/products/pietement-bureau-assis-debout-manuel-reglable-en-hauteur-handy)
